@@ -35,7 +35,7 @@ def detection_loop(
     descripciones_por_track,
     latitud, longitud, nombre_local, ip_camara
 ):
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(os.getenv('CAM_URL'))
     if not cap.isOpened():
         print(f"❌ Error al abrir cámara o stream: {os.getenv('CAM_URL')}")
         return
