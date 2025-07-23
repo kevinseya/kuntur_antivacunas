@@ -32,7 +32,7 @@ Thumbs.db
 
 # Archivos de salida y binarios
 *.rar
-*.pt
+
 
 # Salidas de pruebas
 **/frames/
