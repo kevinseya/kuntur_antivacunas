@@ -1,0 +1,50 @@
+# .gitignore para Kuntur Antivacunas (Monorepo)
+
+# Entornos virtuales de Python
+**/env/
+**/.env
+
+# Archivos de caché de Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración y credenciales
+**/firebase-config.json
+
+# Node.js
+**/node_modules/
+**/package-lock.json
+**/.expo/
+
+# Archivos de configuración de Metro y Expo
+**/dist/
+.expo/
+.expo-shared/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales y de logs
+*.log
+
+# Archivos de salida y binarios
+*.rar
+*.pt
+
+# Salidas de pruebas
+**/frames/
+**/videos/
+
+# Otros
+.env.*
+.idea/
+.vscode/
+
+# Salidas de compilación de React Native
+**/build/
+
+# Archivos de configuración de VSCode
+.vscode/
