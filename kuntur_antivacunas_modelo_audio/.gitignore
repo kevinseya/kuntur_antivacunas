@@ -1,0 +1,50 @@
+# Archivos de entorno virtual
+venv/
+.env
+
+# Archivos de configuración y variables de entorno
+*.env
+*.env.*
+
+# __pycache__ y archivos compilados de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de logs
+*.log
+
+# Archivos temporales de VSCode y sistema
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Archivos de tests
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# Distribución y paquetes
+build/
+dist/
+*.egg-info/
+.eggs/
+*.bak
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archivos generados o temporales de Flask/Starlette/FastAPI
+instance/
+*.db
+*.sqlite3
+
+# Otros posibles
+static/
+media/
+uploads/
